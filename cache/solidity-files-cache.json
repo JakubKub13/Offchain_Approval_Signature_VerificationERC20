@@ -1,0 +1,184 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/phantomghost/Desktop/De-Fi and Crypto/Offchain_signature_verificationERC20/contracts/IERC20Permit.sol": {
+      "lastModificationDate": 1661500480338,
+      "contentHash": "cef566d56d107a45a5c8b497945e7e58",
+      "sourceName": "contracts/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "/Users/phantomghost/Desktop/De-Fi and Crypto/Offchain_signature_verificationERC20/contracts/Vault.sol": {
+      "lastModificationDate": 1661500480339,
+      "contentHash": "7aec7c4ca247d7d0a47424a9ce819f85",
+      "sourceName": "contracts/Vault.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "Vault"
+      ]
+    },
+    "/Users/phantomghost/Desktop/De-Fi and Crypto/Offchain_signature_verificationERC20/contracts/Token.sol": {
+      "lastModificationDate": 1661500480337,
+      "contentHash": "6a150289f408f2b83a08bdaae8df50d7",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@rari-capital/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/Users/phantomghost/Desktop/De-Fi and Crypto/Offchain_signature_verificationERC20/node_modules/@rari-capital/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1661500493724,
+      "contentHash": "a0b1801a2ffe030a0f4ff4d508ceb74f",
+      "sourceName": "@rari-capital/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/phantomghost/Desktop/De-Fi and Crypto/Offchain_signature_verificationERC20/contracts/VerifySignature.sol": {
+      "lastModificationDate": 1661500480340,
+      "contentHash": "951ee5cb5756738ef3eb6e2561d46d3e",
+      "sourceName": "contracts/VerifySignature.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "VerifySignature"
+      ]
+    }
+  }
+}
